@@ -1,0 +1,3 @@
+var variable int := 10;
+arr[variable] int := 10;
+return arr[variable];

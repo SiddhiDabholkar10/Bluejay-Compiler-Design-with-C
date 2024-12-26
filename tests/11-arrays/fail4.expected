@@ -1,0 +1,3 @@
+var vars int := 1;
+arr[vars] string := "string";
+return arr[vars];

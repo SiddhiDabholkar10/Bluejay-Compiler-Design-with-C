@@ -1,0 +1,8 @@
+var variable int := 2;
+fun f int()
+  return 1;
+arr[1] int := 1;
+return arr[5*2-1];
+return arr[6*12+7*variable];
+return arr[6*5+1+f()];
+return arr[6*12+1+f()+variable];

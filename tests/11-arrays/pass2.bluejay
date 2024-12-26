@@ -1,0 +1,2 @@
+arr[1] int := 56;
+return arr[1];

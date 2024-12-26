@@ -1,0 +1,19 @@
+    name: GitHub Classroom Workflow
+
+    on: [push]
+
+    jobs:
+      build:
+        name: Autograding
+        runs-on: ubuntu-24.04
+        steps:
+          - uses: actions/checkout@v2
+          - name: Prepare autograder
+            run: cp .github/autograder.run autograder.run
+          - name: Install dependencies
+            run: sudo apt-get install -y flex bison
+          - name: Compile submission
+            run: make
+          - name: Run autograder
+            run: ./autograder.run
+          - uses: education/autograding@v1

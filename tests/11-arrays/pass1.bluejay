@@ -1,0 +1,4 @@
+arr[10] int := 10;
+arr2[1] string := "string";
+
+

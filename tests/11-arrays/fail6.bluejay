@@ -1,0 +1,4 @@
+fun f string()
+  return "string";
+
+arr[f()] int := 1;

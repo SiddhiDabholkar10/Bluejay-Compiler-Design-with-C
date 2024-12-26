@@ -1,0 +1,4 @@
+fun f int()
+  return 1;
+arr[1] int := 1;
+return arr[10*5+1+f()];

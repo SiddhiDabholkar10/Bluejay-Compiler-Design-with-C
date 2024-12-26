@@ -1,0 +1,104 @@
+{
+  "tests": [
+    {
+      "name": "Test 1",
+      "setup": "",
+      "run": "grep 'TEST 01-simple PASSING' out.log",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 10
+    },
+    {
+      "name": "Test 2",
+      "setup": "",
+      "run": "grep 'TEST 02-stmts PASSING' out.log",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 10
+    },
+    {
+      "name": "Test 3",
+      "setup": "",
+      "run": "grep 'TEST 03-exprs PASSING' out.log",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 10
+    },
+    {
+      "name": "Test 4",
+      "setup": "",
+      "run": "grep 'TEST 04-complex-stmts-exprs PASSING' out.log",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 10
+    },
+    {
+      "name": "Test 5",
+      "setup": "",
+      "run": "grep 'TEST 05-simple-var PASSING' out.log",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 10
+    },
+    {
+      "name": "Test 6",
+      "setup": "",
+      "run": "grep 'TEST 06-multiple-vars-types PASSING' out.log",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 10
+    },
+    {
+      "name": "Test 7",
+      "setup": "",
+      "run": "grep 'TEST 07-function-decl PASSING' out.log",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 10
+    },
+    {
+      "name": "Test 8",
+      "setup": "",
+      "run": "grep 'TEST 08-function-call PASSING' out.log",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 10
+    },
+    {
+      "name": "Test 9",
+      "setup": "",
+      "run": "grep 'TEST 09-function-locals PASSING' out.log",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 10
+    },
+    {
+      "name": "Test 10",
+      "setup": "",
+      "run": "grep 'TEST 10-function-args PASSING' out.log",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 10
+    }
+  ]
+}

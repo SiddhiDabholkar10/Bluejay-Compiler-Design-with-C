@@ -1,0 +1,7 @@
+implicit i int := 400;
+
+fun f int (i int)
+  return i;
+
+
+return f(473);

@@ -1,0 +1,7 @@
+implicit i int := u;
+
+fun f int ()
+  return i;
+
+
+return f();

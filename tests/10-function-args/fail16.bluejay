@@ -1,0 +1,7 @@
+implicit i int := "string";
+
+fun f int ()
+  return i;
+
+
+return f();

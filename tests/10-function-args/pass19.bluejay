@@ -1,0 +1,8 @@
+implicit samename int := 400;
+
+fun f int ()
+  var samename int := 473;
+  return samename;
+
+
+return f();

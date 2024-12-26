@@ -1,0 +1,5 @@
+fun f1 int (argument int, argument int) 
+  return argument;
+
+
+return f1(473, 473);

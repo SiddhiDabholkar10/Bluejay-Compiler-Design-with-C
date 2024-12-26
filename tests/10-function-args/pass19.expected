@@ -1,0 +1,4 @@
+Function declared "f" returns int
+	Local variable "samename" type int position 0
+Argument/local read "samename" type int frame position 0
+Function called "f" returns int

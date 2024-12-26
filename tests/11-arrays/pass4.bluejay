@@ -1,0 +1,5 @@
+var variable int := 2;
+arr[1] int := 1;
+return arr[5*2-1];
+return arr[6*12+7*variable];
+
