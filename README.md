@@ -34,9 +34,7 @@ To set up the project locally, follow these steps:
     git clone https://github.com/SiddhiDabholkar10/Bluejay-Compiler-Design-with-C.git
     ```
 2. Navigate to the project directory:
-    ```sh
-    
-    ```
+   
 3. Build the project using `make`:
     ```sh
     make clean
